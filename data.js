@@ -70,19 +70,19 @@ const PARTITE = [
   {
     id: '12_AGROPOLI - MUGNANO',
     num: 12,
-    label: 'Agropoli vs Mugnano (1)',
+    label: 'Agropoli vs Mugnano',
     photos: ["DSC00195 copia.jpg","DSC00200 copia.jpg","DSC00201 copia.jpg","DSC00210 copia.jpg","DSC00214 copia.jpg","DSC00219 copia.jpg","DSC00240 copia.jpg","DSC00241 copia.jpg","DSC00248 copia.jpg","DSC00257 copia.jpg","DSC00264 copia.jpg","DSC00268 copia.jpg","DSC00271 copia.jpg","DSC00273 copia.jpg","DSC00282 copia.jpg","DSC00288 copia.jpg","DSC00293 copia.jpg","DSC00313 copia.jpg","DSC00318 copia.jpg","DSC00326 copia.jpg","DSC00332 copia.jpg","DSC00347 copia.jpg","DSC00374 copia.jpg","DSC00376 copia.jpg","DSC00438 copia.jpg","DSC00451 copia.jpg","DSC00457 copia.jpg","DSC00475 copia.jpg","DSC00492 copia.jpg","DSC00501 copia.jpg","DSC00506 copia.jpg","DSC00524 copia.jpg","DSC00530 copia.jpg","DSC00533 copia.jpg","DSC00552 copia.jpg","DSC00558 copia.jpg"]
   },
   {
     id: '13_AGROPOLI - MUGNANO',
     num: 13,
-    label: 'Agropoli vs Mugnano (2)',
+    label: 'Agropoli vs Solofra',
     photos: ["DSC00703 copia.jpg","DSC00707 copia.jpg","DSC00712 copia.jpg","DSC00715 copia.jpg","DSC00733 copia.jpg","DSC00738 copia.jpg","DSC00742 copia.jpg","DSC00752 copia.jpg","DSC00755 copia.jpg","DSC00766 copia.jpg","DSC00778 copia.jpg","DSC00804 copia.jpg","DSC00828 copia.jpg","DSC00831 copia.jpg","DSC00844 copia.jpg","DSC00851 copia.jpg","DSC00863 copia.jpg","DSC00894 copia.jpg","DSC00913 copia.jpg","DSC00922 copia.jpg","DSC00925 copia.jpg","DSC00930 copia.jpg","DSC00948 copia.jpg","DSC00958 copia.jpg","DSC00961 copia.jpg","DSC00969 copia.jpg","DSC01019 copia.jpg","DSC01033 copia.jpg","DSC01042 copia.jpg","DSC01078 copia.jpg","DSC01082 copia.jpg","DSC01090 copia.jpg","DSC01125 copia.jpg","DSC01143 copia.jpg","DSC01151 copia.jpg","DSC01155 copia.jpg","DSC01164 copia.jpg","DSC01172 copia.jpg","DSC01182 copia.jpg","DSC01198 copia.jpg","DSC01204 copia.jpg","DSC01213 copia.jpg"]
   },
   {
     id: '14_AGROPOLI - MONDRAGONE',
     num: 14,
     label: 'Agropoli vs Mondragone',
-    photos: []
+    photos: ["DSC01399.jpg","DSC01401.jpg","DSC01412.jpg","DSC01424.jpg","DSC01427.jpg","DSC01432.jpg","DSC01437.jpg","DSC01447.jpg","DSC01495.jpg","DSC01513.jpg","DSC01516.jpg","DSC01534.jpg","DSC01535.jpg","DSC01537.jpg","DSC01544.jpg","DSC01549.jpg","DSC01560.jpg","DSC01565.jpg","DSC01582.jpg","DSC01587.jpg","DSC01594.jpg","DSC01616.jpg","DSC01636.jpg","DSC01639.jpg","DSC01656.jpg","DSC01659.jpg","DSC01669.jpg","DSC01673.jpg","DSC01681.jpg","DSC01684.jpg","DSC01709.jpg","DSC01717.jpg","DSC01721.jpg","DSC01723.jpg","DSC01736.jpg","DSC01758.jpg","DSC01787.jpg","DSC01807.jpg","DSC01813.jpg","DSC01815.jpg","DSC01840.jpg","DSC01853.jpg","DSC01890.jpg","DSC01930.jpg","DSC01937.jpg","DSC01942.jpg"]
   }
 ];

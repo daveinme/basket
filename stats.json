@@ -1,0 +1,34 @@
+{
+  "visits": 3,
+  "downloads": 1,
+  "events": [
+    {
+      "type": "download",
+      "match": "13_AGROPOLI - MUGNANO",
+      "photo": "DSC00712 copia.jpg",
+      "time": "2026-03-26T14:51:31.310Z",
+      "ip": "::xxx"
+    },
+    {
+      "type": "visit",
+      "match": "13_AGROPOLI - MUGNANO",
+      "photo": null,
+      "time": "2026-03-26T14:51:26.163Z",
+      "ip": "::xxx"
+    },
+    {
+      "type": "visit",
+      "match": "14_AGROPOLI - MONDRAGONE",
+      "photo": null,
+      "time": "2026-03-26T14:49:10.394Z",
+      "ip": "::xxx"
+    },
+    {
+      "type": "visit",
+      "match": "13_AGROPOLI - SOLOFRA",
+      "photo": null,
+      "time": "2026-03-26T14:49:02.910Z",
+      "ip": "::xxx"
+    }
+  ]
+}

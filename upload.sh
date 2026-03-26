@@ -28,6 +28,22 @@ for dir in "$SRC"/*/; do
 done
 
 echo ""
+echo "=== Upload foto firmate (14_AGROPOLI - MONDRAGONE) ==="
+FIRMA_SRC="/home/daveinme/Scrivania/baskkk/done/firma"
+FIRMA_MATCH="14_AGROPOLI - MONDRAGONE"
+encoded_match=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$FIRMA_MATCH")
+for photo in "$FIRMA_SRC"/*.jpg; do
+  [ -f "$photo" ] || continue
+  filename=$(basename "$photo")
+  encoded_file=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$filename")
+  r2_key="${BUCKET}/basket/${encoded_match}/${encoded_file}"
+  wrangler r2 object put "$r2_key" \
+    --file "$photo" \
+    --content-type "image/jpeg" \
+    --remote
+done
+
+echo ""
 echo "=== Upload file sito ==="
 SITE_DIR="$(dirname "$0")"
 for f in index.html style.css data.js app.js; do
