@@ -33,7 +33,7 @@ app.post('/track', (req, res) => {
     match:  match  || null,
     photo:  photo  || null,
     time:   new Date().toISOString(),
-    ip:     req.headers['cf-connecting-ip'] || req.ip
+    ip:     (req.headers['cf-connecting-ip'] || req.ip).replace(/(\d+)$/, 'xxx')
   };
 
   if (type === 'visit')    stats.visits++;
