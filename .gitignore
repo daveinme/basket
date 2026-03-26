@@ -1,0 +1,7 @@
+.wrangler
+/node_modules
+LOGO BASKET_ORI.png
+/upload_mondragone.sh
+/upload.sh
+stats.json
+test_firma.py
