@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basket Agropoli – Foto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <span class="ball">🏀</span>
+      <h1>Basket Agropoli</h1>
+      <p class="subtitle">Foto delle partite – stagione 2024/25</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="grid" id="matchGrid"></div>
+  </main>
+
+  <!-- Overlay galleria -->
+  <div class="overlay" id="overlay" hidden>
+    <div class="overlay-header">
+      <button class="btn-back" id="btnBack">← Torna alle partite</button>
+      <h2 id="overlayTitle"></h2>
+      <span class="photo-count" id="photoCount"></span>
+    </div>
+    <div class="gallery" id="gallery"></div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
